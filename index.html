@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('guessing game background.jpg'); /* Replace 'your-image-url.jpg' with the actual URL or path to your image */
+            background-size: cover; /* This property ensures that the background image covers the entire body */
+            background-position: center; /* This property centers the background image */
+            font-family: Arial, sans-serif; /* Specify a fallback font-family */
+            margin: 0; /* Remove default body margin */
+            padding: 0; /* Remove default body padding */
+        }
+
+        .login-container {
+            /* You can add styles for your login container here if needed */
+            max-width: 400px; /* Adjust the width as per your design */
+            margin: auto; /* Center the login container horizontally */
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background for better readability */
+            border-radius: 8px; /* Optional: Add rounded corners to the login container */
+        }
+
+        /* Add more styles as needed */
+    </style>
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form action="game.html">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
